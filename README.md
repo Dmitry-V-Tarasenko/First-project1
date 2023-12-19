@@ -1,0 +1,6 @@
+![растровый](https://github.com/Dmitry-V-Tarasenko/First-project1/assets/115418786/0b6c4b0b-c7bb-4d83-985f-2463091ccf70)
+![Розы](https://github.com/Dmitry-V-Tarasenko/First-project1/assets/115418786/33177d11-91ca-44d9-aa3f-86e14a456dcb)
+![Ромашки](https://github.com/Dmitry-V-Tarasenko/First-project1/assets/115418786/4a1e2533-a373-43f0-a809-61236c6c17df)
+![Таракан](https://github.com/Dmitry-V-Tarasenko/First-project1/assets/115418786/e77cbb11-b242-43fc-899a-5012c9801a50)
+![Тюльпаны](https://github.com/Dmitry-V-Tarasenko/First-project1/assets/115418786/5b2aa6d4-f5b4-4d31-8662-c9b369644e37)
+![фига](https://github.com/Dmitry-V-Tarasenko/First-project1/assets/115418786/d7f392f7-8e69-41d0-b1fe-073af6aa8099)
