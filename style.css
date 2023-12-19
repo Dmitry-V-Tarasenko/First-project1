@@ -1,0 +1,393 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Arial, Helvetica, sans-serif;
+}
+
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #a8ffa5;
+    padding-top: 10px;
+}
+
+.title {
+    font-size: 48px;
+    line-height: 56px;
+    color: #09014e;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+.container {
+    background: #e7fae7;
+    width: 1100px;
+    margin: auto;
+    box-shadow: 0 5px 15px rgb(15, 192, 103);
+    padding-left: 15px;
+    padding-right: 15px;
+  
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 56px;
+    padding-bottom: 30px;
+}
+
+
+.logo {
+    font-size: 43px;
+    font-weight: bold;
+    color: rgb(3, 105, 34);
+    text-decoration: none;
+    padding: 0;
+
+}
+
+.logo2 {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.menu-items {
+    display: flex;
+    gap: 50px;    /* Отступ м/у колонками и рядами*/
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    list-style-type: none;
+}
+
+
+.menu-item a {
+    font-size: 18px;
+    background: linear-gradient(rgb(115, 250, 122), rgb(255, 255, 255));
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: all 0.5s;
+    border-style: double;
+    border-color: #d0d3d3;
+    padding: 5px;
+   }
+
+.menu-item a:hover {
+    color: rgb(5, 5, 5);   
+    background: linear-gradient(rgb(255, 255, 255), rgb(35, 236, 35));
+
+}
+
+.main-discription, .search-bar {
+    display: flex;
+}
+.show-dialog-button   {
+    font-size: 18px;
+    background: linear-gradient(rgb(115, 250, 122), rgb(255, 255, 255));
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: all 0.5s;
+    border-style: double;
+    padding: 5px;
+    border-color: #d0d3d3;
+      
+}
+
+.show-dialog-button:hover {
+    color: rgb(5, 5, 5);   
+    background: linear-gradient(rgb(255, 255, 255), rgb(35, 236, 35)); 
+}
+
+
+
+.dialog-box {
+    box-shadow: 0px 15px 10px 0px rgb(255, 255, 255);
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+}
+
+
+.main-discription p {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #000;
+}
+
+
+
+.services {
+    background-color: #fff;
+    padding-top: 110px;
+    padding-bottom: 88px;
+}
+
+
+footer {
+    background: #35f3e3;
+    height: 400px;
+    margin-top: 30px;
+}
+
+
+.footer-logo {
+    font-size: 29px;
+    color: #020202;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.footer-content {
+    display: flex;
+    
+}
+
+.footer-content p {
+    color: #3b3b3b;
+    width: 360px;
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.footer-copyright {
+    font-size: 16px;
+    font-weight: 200;
+    color: #050505;
+
+}
+
+
+.footer-menu-items {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+ 
+}
+
+.footer-menu-item {
+    list-style-type: none;
+
+
+}
+
+.footer-menu-item a {
+    color: #0a005e;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.footer-navigation-title {
+    font-size: 29px;
+    font-weight: 700;
+    margin: 0px;
+    display: inline-block;
+    text-align: center;
+    color: rgb(34, 33, 32);
+}
+
+.footer-content-block {
+    flex: 1;
+    padding-top: 50px;
+
+}
+
+.footer-content-block span {
+    margin-bottom: 30px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.main-picture {
+    padding-left: 50px;
+    width: 300px;
+    height: auto;
+    justify-content: space-between;
+    
+}
+
+
+.main-discription-second {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+
+.buttom-item {
+    gap: 200px;
+    margin: 20px;
+    padding: 10px;
+    background: linear-gradient(rgb(29, 2, 94), rgb(100, 1, 1));
+    border-radius: 5px;
+    color: #fff;
+    border-style: ridge 5px;
+    transition: all 300ms ease;
+}
+
+.buttom-item:hover {
+    background: linear-gradient(rgb(200, 1,1), rgb(12, 4, 129));
+    color: #ffffff;
+    box-shadow: inset 0 0 0 2px #000000;
+
+}
+
+/* блок меню ввода*/
+
+a.close {
+    background-color: rgb(211, 255, 247);
+    border-radius: 50%;
+    color: rgb(8, 8, 8);
+    display: block;
+    font-family: 'Varela Round', sans-serif;
+    font-size: .8em;
+    padding: .2em .5em;
+    position: absolute;
+    top: 1.25rem;
+    transition: all 400ms ease;
+    right: 1.25rem;
+}
+
+a.close:hover {
+    background-color: #575656;
+    cursor: pointer;
+}
+
+div.overlay {
+    background-color: rgba(0, 0, 0, .25);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+div.overlay>div.login-wrapper {
+    align-self: center;
+    background-color: rgba(0, 0, 0, .25);
+    border-radius: 2px;
+    padding: 6px;
+    width: 450px;
+}
+
+div.overlay>div.login-wrapper>div.login-content {
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    padding: 24px;
+    position: relative;
+}
+
+div.overlay>div.login-wrapper>div.login-content>h3 {
+    color: rgb(0, 0, 0);
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.8em;
+    margin: 0 0 1.25em;
+    padding: 0;
+}
+
+form label {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.25em;
+    margin: .75em 0;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="search"],
+form input[type="password"],
+form textarea {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 1px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.08);
+    display: block;
+    font-size: .65em;
+    margin: 6px 0 12px 0;
+    padding: .8em .55em;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 1);
+    transition: all 400ms ease;
+    width: 90%;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="number"]:focus,
+form input[type="search"]:focus,
+form input[type="password"]:focus,
+form textarea:focus,
+form select:focus {
+    border-color: #4195fc;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px #4195fc;
+}
+
+form input[type="text"]:invalid:focus,
+form input[type="email"]:invalid:focus,
+form input[type="number"]:invalid:focus,
+form input[type="search"]:invalid:focus,
+form input[type="password"]:invalid:focus,
+form textarea:invalid:focus,
+form select:invalid:focus {
+    border-color: rgb(248, 66, 66);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgb(248, 66, 66);
+}
+
+form button {
+    background-color: #e7fae7;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0px;
+    transition: all 400ms ease;
+    border: #000;
+
+}
+
+form button:hover {
+    background-color: #261bc5;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .left, .main, .right {
+      width: 100%; /* Ширина составляет 100%, когда область просмотра составляет 800 пикселей или меньше */
+   }
+  }
+  
+
+

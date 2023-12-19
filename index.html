@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="#" href="publik/растровый.png">
+    <title>Green House - Для тех, кто ценит красоту</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="module" src="main.js"></script>
+
+</head>
+
+<body>
+    <header class="container">
+        <a class="logo" href="#">Green House</a>
+
+        <button class="show-dialog-button">Сделать заказ</button>
+        <dialog class="dialog-box">
+            <p><img src="publik/фига.gif" alt=""></p>
+            <button class="close-dialog-button" type='button'>Закрыть</button>
+        </dialog>
+
+        <form action="#" class="search-bar">
+            <input type="search" name="search" placeholder="Введите запрос" pattern=".*\S.*" required>
+            <button class="search-btn" type="submit">
+                <span>Найти</span>
+            </button>
+        </form>
+
+
+        <nav class="navbar">
+            <ul class="menu-items">
+                <li class="menu-item"><a href="#" id="loginLink">Войти</a>
+                    <div class="overlay" style="display: none;">
+                        <div class="login-wrapper">
+                            <div class="login-content" id="loginTarget">
+                                <a class="close">x</a>
+                                <h3>Вход</h3>
+                                <form method="post" action="#">
+                                    <label for="username">
+                                        Логин:
+                                        <input type="text" name="username" id="username"
+                                            placeholder="Введите логин"
+                                            pattern="^[a-zA-Z][a-zA-Z0-9-_.]{8,20}$" required />
+                                    </label>
+                                    <label for="password">
+                                        Пароль:
+                                        <input type="password" name="password" id="password"
+                                            placeholder="Введите пароль"
+                                            pattern="(?=^.{8,}$)((?=.*d)|(?=.*W+))(?![.n])(?=.*[A-Z])(?=.*[a-z]).*$"
+                                            required />
+                                    </label>
+                                    <button type="submit">Войти</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="menu-item"><a href="3.html">Продукция</a>
+                <li class="menu-item"><a href="2.html">Корзина</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="main container" id="main">
+        <h1 class="title">Растения для дома, сада, огорода</h1>
+
+
+        <div class="main-discription">
+            <img src="publik/Ромашки.jpg" class="main-picture" alt="цветы">
+            <img src="publik/Тюльпаны.jpg" class="main-picture" alt="flowers">
+            <img src="publik/Розы.jpg" class="main-picture" alt="flowers">
+
+        </div>
+        <div class="main-discription-second">
+
+            <button class="buttom-item">Цветы для дома</button>
+            <button class="buttom-item">Расстения для сада</button>
+            <button class="buttom-item">В подарок любимым</button>
+        </div>
+
+
+
+    </section>
+    </section>
+
+    <footer>
+
+        <div class="footer-content container">
+
+
+            <div class="footer-content-block">
+                <span class="footer-navigation-title">Товар продан</span>
+                <p>Мила мыла мишку мылом. Мила мыло уронила. Уронила Мила мыло. Мила мишку не домыла
+                </p>
+                <span class="footer-copyright">&copy Product by Green House corp. </span>
+            </div>
+
+
+
+            <div class="footer-content-block">
+
+                <ul class="footer-menu-items">
+                    <li class="footer-menu-item"><span class="footer-navigation-title">Информация</span></li>
+                    <li class="footer-menu-item"><a href="#">О нас</a></li>
+                    <li class="footer-menu-item"><a href="#">Услуги</a></li>
+                    <li class="footer-menu-item"><a href="#">Статьи</a></li>
+                    <li class="footer-menu-item"><a href="#">Скачать прайс-лист</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-content-block">
+
+                <ul class="footer-menu-items">
+                    <li class="footer-menu-item"><span class="footer-navigation-title">Помощь</span></li>
+                    <li class="footer-menu-item"><a href="#">Как сделать заказ</a></li>
+                    <li class="footer-menu-item"><a href="#">Вопросы и ответы</a></li>
+                    <li class="footer-menu-item"><a href="#">Доставка и оплата</a></li>
+                    <li class="footer-menu-item"><a href="#">Сервис</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
